@@ -32,3 +32,54 @@
 #film-link:hover {
     object-position: 0 -32px;
 }
+
+
+#secondary {
+    display: flex;
+}
+
+.subitem {
+    flex: 1;
+}
+
+.subitem > img {
+    width: 100%;
+}
+
+footer {
+   font-size: 10px;
+   color: rgb(110,110,110);
+   width: 50%;
+   margin: 0 auto;
+   display: flex;
+   align-items: flex-start;
+   justify-content: space-between;
+   margin-top: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(0,136,204);
+}
+
+#footnav,
+#contact {
+    display: inline-block;
+}
+
+#footnav > ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+#footnav > ul > li {
+    display: inline-block;
+    border-right: 1px solid lightgray;
+    padding-right: 5px;
+    margin-left: 5px;
+}
+
+#footnav > ul > li:last-child {
+    border-right: none;
+}
