@@ -6,7 +6,7 @@ A project from [The Odin Project's](https://www.theodinproject.com/courses/html5
 * How to use gradient backgrounds
 
 ## Things to work on
-* 
+* The searchbar isn't quite right, lacks some of the shadows/depth of the original version
 
 # Check it out yourself
 
